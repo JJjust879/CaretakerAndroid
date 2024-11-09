@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TakeCare</string>
+    <string name="logo_description">Logo Image</string>
+    <string name="title_text">TakeCare</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_label">Password:</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_register_button">Login/Register</string>
+    <string name="show_password_checkbox">Show Password</string>
+    <string name="email_label">Email:</string>
+    <string name="patient_mode">Patient</string>
+    <string name="caretaker_mode">Caretaker</string>
+    <string name="toggle_info">Toggle Between Patient and Caretaker</string>
+    <string name="enter_email_password">Please enter both email and password</string>
+    <string name="login_register_clicked">Login/Register clicked</string>
+    <string name="phone_label">Phone:</string>
+    <string name="phone_hint">Enter your phone number</string>
+    <string name="patient_name">Name: %1$s</string>
+    <string name="patient_age">Age: %1$d</string>
+    <string name="patient_phone">Phone: %1$s</string>
+    <string name="back">Back</string>
+    <string name="caretaker_extra_info_label">Input Patient Email and Phone</string>
+    <string name="caretaker_email_input_hint">Enter Patient Email</string>
+    <string name="caretaker_phone_input_hint">Enter Patient Phone No.</string>
+    <string name="CallCaretaker">Call Caretaker</string>
+    <string name="MsgCareTaker">Message Caretaker</string>
+    <string name="CallPatient">Call Patient</string>
+    <string name="MsgPatient">Message Patient</string>
+    <string name="AddTask">Add Task</string>
+</resources>

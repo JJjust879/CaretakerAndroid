@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:minWidth="300dp"
+    android:minHeight="400dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Patient"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/patientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient's Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/patientAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient's Age"
+        android:inputType="number"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/patientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient's Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/patientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient's Phone Number"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</LinearLayout>
